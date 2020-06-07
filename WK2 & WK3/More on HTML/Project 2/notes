@@ -1,0 +1,99 @@
+html, body {
+   
+    background-color: lightcoral;
+}
+h2 {
+    text-align: center;
+    color: #006400;
+    font-size: 2.0em;
+    font-family: Georgia;
+}
+h3 {
+    text-align: center;
+    font-family: Georgia;
+}
+
+img { 
+        width: 300px;
+        height: auto;
+        padding-bottom: 50px;
+        align-content: center;
+}
+a:link {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.fancy {
+    font-weight: bolder;
+    text-decoration-color: #006400;
+    text-shadow: 4px 4px 3px #87cefa;
+    text-transform: uppercase;
+   }
+
+
+table,
+td {
+    border: 3px dotted #333;
+    position: relative;
+    left: 150px;   
+}
+
+thead,
+tfoot {
+    background-color: #00ffff;
+    color: #ff00ff;
+    font-size: 40px;
+    position: relative;
+    left: 200px; 
+}
+
+
+   <div class="w3-container">
+ 
+  <table class="w3-table-all">
+    <thead>
+      <tr class="w3-red">
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Points</th>
+      </tr>
+    </thead>
+    <tr>
+      <td>Jill</td>
+      <td>Smith</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>Eve</td>
+      <td>Jackson</td>
+      <td>94</td>
+    </tr>
+    <tr>
+      <td>Adam</td>
+      <td>Johnson</td>
+      <td>67</td>
+    </tr>
+  </table>
+
+  .fancy0 {
+   
+    text-align: center;
+    font-style: italic;
+}
+.fancy1 {
+    text-align: center;
+}
+.fancy2 {
+    text-align: left;
+}
+
+
+a:link {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}

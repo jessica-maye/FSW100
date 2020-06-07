@@ -1,0 +1,82 @@
+*{ /*Resets and Default styling*/
+margin: 0;
+padding: 0;
+Font-family: arial;
+font-weight: lighter;
+}
+
+#box{
+    border: 2px dotted #90ee90;
+}
+#box > h1 {
+    background-color: #82a
+}
+
+/*larger phones */
+@media only screen and (min-width:400px) {
+    #box{
+        border: 2px solid green;
+    }
+    #box > h1 {
+        background-color: #ffff00;
+    }
+}
+
+/* Tablet */
+@media only screen and (min-width:650px) {
+    #box1{
+        border: 1px solid rgb(245, 241, 240);
+    }
+    #box1 > h1 {
+        background-color: lightpink;
+    }
+    #box2{
+        border: 1px solid rgb(245, 241, 240);
+    }
+    #box2 > h1 {
+        background-color: #c70988;
+    }
+    #box3{
+        border: 1px solid rgb(245, 241, 240);
+    }
+    #box3 > h1 {
+        background-color: #c70988;
+    }
+    #box4{
+        border: 1px solid rgb(245, 241, 240);
+    }
+    #box4 > h1 {
+        background-color: #c70988;
+    }
+    #box5{
+        border: 1px solid rgb(245, 241, 240);
+    }
+    #box5 > h1 {
+        background-color: #c70988;
+    }
+    #box6{
+        border: 1px solid rgb(245, 241, 240);
+    }
+    #box6 > h1 {
+        background-color: blue;
+    }
+    #box7{
+        border: 1px solid rgb(245, 241, 240);
+    }
+    #box7 > h1 {
+        background-color: blue;
+    }
+    #box8{
+        border: 1px solid rgb(245, 241, 240);
+    }
+    #box8 > h1 {
+        background-color: darkgreen;
+    }
+    #box9{
+        border: 1px solid rgb(245, 241, 240);
+    }
+    #box9 > h1 {
+        background-color: orange;
+    }
+}
+

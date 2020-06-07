@@ -1,0 +1,99 @@
+body, html {
+    background-color: #008000;
+}
+.topnav {
+    position:fixed;
+    background-color: #333;
+    overflow: hidden;
+}
+.topnav a {
+    float: left;
+    color: #2e8b57;
+    padding: 10px 50px;
+    text-decoration: salmon;
+    font-size: 20px;
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: purple;
+}
+.topnav a.active {
+    background-color: #85CFD8;
+    color: #EE2E84;
+}
+.topnav a.grid {
+    position: relative;
+    left: 30px;
+}
+.topnav a.blogs {
+    position: relative;
+    left: 10px;
+}
+.newbox{
+  
+    height: 200px;
+    width: 300px;
+    background-color: powderblue;
+    margin: 15px;
+}
+.secondbox{
+    height:200px;
+    width: 300px;
+    background-color: rgb(236, 165, 189);
+    margin: 15px;
+    
+}
+h1{
+    position: relative;
+    top:50px;
+}
+
+.cake {
+        height: 100px;
+        background-color: #EE2E84;
+        width: 60%;
+        text-align: center;
+}
+* {
+    box-sizing: border-box;
+}
+table,
+td {
+    border: 4px solid rgb(255, 252, 252);
+    align-self: center;    
+}
+
+thead, td {  
+    color: #4112c0;
+    height: 90px;
+    background-color: #EE2E84;
+    width: 50%;
+    text-align: center;
+}
+tr{
+    position: relative;
+    top: 25px;
+}
+.understanding {
+    position: relative;
+    top: 50px;
+    font-family: Arial;
+    font-size: 1cm;
+}
+img { 
+    position: relative;
+    left: 40px;
+    top: 50px;
+    width: 400px;
+    height: 300px;
+    border: 6px solid red;
+  
+    padding-bottom: 50px;
+    align-content: center;
+}
+.design {
+    position: relative;
+ font-family: cursive;
+ font-size: 12mm;
+color: yellow;
+}

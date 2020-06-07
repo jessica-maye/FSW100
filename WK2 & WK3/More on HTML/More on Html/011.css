@@ -1,0 +1,38 @@
+html {
+   
+    background-color: lightcoral;
+}
+h1 {
+    color: #00ffff;
+    text-align: center;
+}
+
+table,
+td {
+    border: 1px solid #333;
+    align-self: center;    
+}
+.fancy0 {
+    symbols: element(firefox 33);
+    text-align: center;
+    font-style: italic;
+}
+.fancy1 {
+    text-align: center;
+}
+.fancy2 {
+    text-align: left;
+}
+
+thead,
+tfoot {
+    background-color: #333 ;
+    color: #ff00ff;
+}
+a:link {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+

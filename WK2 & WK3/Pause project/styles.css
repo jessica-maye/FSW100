@@ -1,0 +1,20 @@
+html, body {
+    text-align: center;
+    background-color: lightcoral;
+}
+h1 { 
+    color: #FF0000;
+    font-size: 3.0em;
+}
+h6 { color: rebeccapurple
+
+}
+img { 
+        width: 300px;
+        height: auto;
+        padding-bottom: 50px;
+        align-content: center;
+}
+div {
+    text-align: left
+}

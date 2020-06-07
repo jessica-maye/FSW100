@@ -1,0 +1,10 @@
+HTML
+-Hypertext Markup Language
+-tags 
+<h1></h1>
+
+-create a large header 
+
+-elements are the tages inside
+
+-attributes color / user can interact 

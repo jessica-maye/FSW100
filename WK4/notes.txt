@@ -1,0 +1,55 @@
+notes
+fixed horizontal navigation bar Stays at the top of the page even if you scroll
+                the navagation bar should include a link to the grid pagee
+
+        a blog style feeed -center of the page  - can be hard coded- can put filler text if you want
+        each blog should have a titiel 
+        the date it was published
+        have a photo at the top of the text and the text should wrap around the photo and have a reasonable margin between the photo 
+
+        practice grid 
+
+        light pink 
+        #F5C6D6
+        bright pink
+        #EE2E84
+        baby blue
+        #85CFD8
+        green 
+        #8DC63F
+        orange
+        #E76E34
+
+        option to create the white spacing around the boxes is by using a thick boreder 
+        for the style sheet 
+        * {
+            box-sizing: border-box;
+        }
+
+        <table>
+        <thead>
+            <tr>
+                <th colspan="2">This is what you want isnt it?</th> 
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <p><td class="fancy1">Pros and Cons</p>
+                    <p>
+                    <ol>
+                    <li class="fancy2">The person God chose for me is Distracting when you have to live in the man's world.</li>
+                    <li class="fancy2">He may have Evil Tendencies that are not fit for my lifestyle</li>
+                    <li class="fancy2">I dont know if I am ready to love</li>
+                    <li class="fancy2">I am afraid to live</li>
+                    </ol></p>
+                <td class="fancy1"> But when you think about it
+                    <p>
+                    <ul>
+                    <li class="fancy2">Really you love people and you have to embrace your destiny</li> 
+                    <li class="fancy2">Even though you love these people you have to let them go</li>
+                    </ul></p>
+                </td>
+                
+            </tr>
+        </tbody>
+    </table>
