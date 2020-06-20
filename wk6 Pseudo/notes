@@ -1,0 +1,33 @@
+<div id="grid-container1">
+            <header1>CSS Grid Part I</header1>
+            <nav1>
+                <div>Home</div>
+            </nav1>
+            <green>This part has to work!</green>
+            <purple>
+                The Main Section IT CAN CHANGE 
+            </purple>
+            <footer>The Footer!</footer>
+        </div>
+<br><br><br>
+    <div id="grid-container2">
+        <header>CSS Grid Part II</header>
+        <nav>
+            <div>Home</div>
+            <div>About</div>
+            <div>Contact</div>
+        </nav>
+        <title2>
+        IT CAN CHANGE 
+        </title2>
+        <main>
+            The Main Section
+            IT CAN CHANGE 
+        </main>
+        <main2>
+            The Main Section
+            IT CAN CHANGE 
+        </main2>
+        
+    </div>
+        

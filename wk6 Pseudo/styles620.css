@@ -1,0 +1,56 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+
+#grid-container {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat (auto-fit, 100px, 1fr);
+    grid-template-rows: repeat (4, 100px);
+}
+
+/* styling for the 6 boxes */
+
+#grid-container > div {
+    background-color: rgb(18, 241, 85); 
+    border: 5px outset blueviolet;
+    height: 50px;
+    width: 150px;
+    margin: 5px; 
+    position: relative;
+    top: 50px;
+    left: 100px;
+    opacity: 1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(24, 4, 4);
+    font-size: 8px; 
+}
+
+#grid-container > div:hover {
+    background-color: rgb(252, 0, 176);
+        border: 10px groove blueviolet;
+    border-radius: 2pt;
+    height: 100px;
+    width: 350px;
+    margin: 40px;
+        padding: 12px;
+        box-shadow: 5px 10px 18px yellow;
+    position: relative;
+    opacity: 1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-size: 45px; 
+    animation: mymove 5s;
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 200px;}
+}
+
